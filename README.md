@@ -1,9 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aurix4x AI Gold Analyzer</title>
+</head>
+
+<body style="background:#0b1320;color:white;font-family:Arial;text-align:center">
+
 <h2>Aurix4x AI Gold Analyzer</h2>
 
 <input id="pair" placeholder="Search XAUUSD">
 <button onclick="analyze()">Analyze</button>
 
-<div id="result"></div>
+<h3 id="result"></h3>
 
 <script>
 
@@ -28,3 +36,6 @@ document.getElementById("result").innerHTML =
 }
 
 </script>
+
+</body>
+</html>
